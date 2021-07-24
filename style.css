@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    font-family: 'Indie Flower', cursive;
+    background: image();
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 43px;
+}
+
+.cont-calc {
+    /* width: 400px;
+    height: 500px; */
+    margin: 0 auto;
+    background: grey;
+    padding: 45px;
+    border-radius: 10%;
+}
+
+.cont-calc table {
+    margin: 0 auto;
+}
+
+.cont-calc table tr td button {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    border-radius: 20px;
+    color: rgb(17, 0, 255);
+    cursor: progress;
+}
+
+.cont-calc table tr td button:hover {
+    background: darkslategray;
+    color: black;
+}
+
+#calc-img {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#calc-img {
+    height: 1024px;
+    /* width: 1024px; */
+    /* display: inline-block; */
+}
+
+
+/* Lineas de codigo para mostrar digitos ingresados y resultados */
+
+#contResult {
+    display: block;
+    text-align: right;
+    font-size: 80px;
+    background: #fff;
+    border: 1px solid green;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 90px;
+    color: black;
+}
